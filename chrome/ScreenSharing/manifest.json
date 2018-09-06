@@ -1,7 +1,7 @@
 {
   "name" : "I&I OpenTok Screen Sharing",
   "author": "Popeye I&I",
-  "version" : "2.0",
+  "version" : "4.0",
   "manifest_version" : 2,
   "minimum_chrome_version": "34",
   "description" : "This Chrome extension is developed primary for http://tokbox.com/. It doesn't do anything except capture content of your screen.",
@@ -12,7 +12,8 @@
   },
   "externally_connectable": {
     "matches": [
-      "https://ii-tokbox-client-vue.herokuapp.com/*"
+      "https://ii-tokbox-client-vue.herokuapp.com/*",
+      "http://localhost:8080/*"
     ]
   },
   "icons": {
